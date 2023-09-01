@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+.nav-container {
+    width: 100% !important;
+
+}
+
+
+
+/* ----line hover-----  */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+.header-middle {
+    background-color: #252B48 !important;
+    background-image: none !important;
+    padding: 0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.error-text {
+    color: red;
+}
+
+.thirdpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.flat-support div,
+div .social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+ul.flat-support div a {
+    color: white !important;
+}
+
+ul.flat-support div a b {
+    font-size: 12px !important;
+    font-weight: 750 !important;
+    letter-spacing: 1px;
+    font-family: 'Roboto', 'Times New Roman', Times, serif !important;
+}
+
+.social-list li a svg {
+    color: white;
+    font-size: 20px;
+}
+
+
+column-1 :hover {
+    cursor: pointer !important;
+}
+
+.submenu li {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem 0.5rem 1rem;
+}
+
+.submenu li a {
+    text-transform: uppercase;
+}
+
+.submenu li a {
+    transition: all 0.25s ease-in;
+}
+
+.submenu li a:hover {
+    font-weight: 900 !important;
+    font-size: 13.9px !important;
+}
+
+
+
+
+
+.link {
+    cursor: pointer;
+}
+
+.box-search {
+    background-color: white;
+    border-radius: 0px;
+}
+
+.box-search input {
+    border-radius: 0px;
+    color: #847D7D;
+}
+
+.box-search input:focus {
+    border: none !important;
+}
+
+.waves-effect {
+    background-color: #2D7DC4 !important;
+    padding: 0 1.4rem ;
+    border-radius: 0px;
+    color: white;
+}
+
+
+
+.top-search {
+    padding-bottom: 0.5rem;
+    margin-right: 0 !important;
+}
+
+.social-list {
+    text-align: right;
+    height: 100%;
+}
+
+.social-list li {
+    height: 100%;
+    padding-top: 0.33rem;
+}
+
+.center {
+    margin: 0px auto;
+}
+
+.row div div a div h2 div p {
+    font-size: 12.5px !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+
+.mainnavbar {
+    margin: 0 !important;
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.mainnavbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 14.5px !important;
+    text-transform: uppercase;
+    line-height: 29px;
+    font-family: 'REM', sans-serif !important;
+}
+
+.mainnavbar .ullist  .mylist{
+    position: relative;
+}
+
+.mainnavbar .ullist  .mylist a{
+cursor: pointer;
+}
+
+.mainnavbar .ullist  .mylist a:hover,.mainnavbar .ullist  .list a:hover{
+    font-size: 17px !important;
+  
+}
+
+.mainnavbar .ullist  .mylist .sublist{
+    visibility: hidden;
+    opacity: 0;
+    z-index: -999;
+    position: absolute;
+    z-index: 9999;
+    background-color: white;
+    width: 100%;
+    top: 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12.5px !important;
+    font-family: 'REM', sans-serif !important;
+    padding-left: 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.mainnavbar .ullist  .mylist:hover .sublist{
+    visibility: visible;
+    opacity: 2;
+    z-index: 9999;
+}
+
+.mainnavbar .ullist  .mylist .sublist li:hover{
+    font-size: 13px !important;
+}
+
+.mainnavbar .ullist  .mylist .sublist li {
+    padding: 0.2rem;
+}
+
+.m-navbar {
+    font-family: 'REM', sans-serif !important;
+    z-index: 999;
+}
+
+.m-navbar .ullist .list {
+    padding: 1rem;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+
+}
+
+.m-navbar .ullist .list a {
+    color: white !important;
+}
+
+.logo  div {
+    justify-content: end;
+}
+.logo  div img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-width: 128px;
+}
+
+.logo  .titlename {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.logo  .titlename h2 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: none !important;
+    background-color: white;
+    font-family: 'REM', sans-serif !important;
+    font-size: 23px !important;
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    line-height: 29px !important;
+    text-align: center;
+}
+
+.logo  .titlename h5 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    /* background-image: linear-gradient(to right top, #c4eefc, #b2e4fb, #a2dafc, #96cffc, #8ec3fb, #80b7fc, #77abfc, #719efb, #5f8ffc, #4f7ffc, #426efa, #3a5cf7); */
+    background-image: none !important;
+    background-color: white;
+    font-family: 'REM', sans-serif !important;
+    font-size: 11px !important;
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    line-height: 29px !important;
+    text-align: center;
+}
+
+.logobox .logo {
+    height: 100% !important;
+}
+
+.logobox .logo a {
+    width: 100% !important;
+    height: 100%;
+    margin-left: 0 !important;
+}
+
+.logobox .logo div {
+    display: flex;
+}
+
+.logobox .navbaricon {
+    display: none;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 991px){
+.top-search form.form-search .box-search input {
+    padding-left: 1rem;
+}
+
+}
+
+@media screen and (max-width:768px) {
+    .mainnavbar{
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .logobox {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logobox .logo {
+        width: 80%;
+    }
+
+    .logobox .navbaricon {
+        display: block;
+        color: white;
+        width: 20%;
+        text-align: end;
+        padding-right: 2rem;
+        cursor: pointer;
+
+    }
+
+}
+
